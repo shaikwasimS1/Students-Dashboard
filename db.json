@@ -1,0 +1,17 @@
+{
+  "posts": [
+    {
+      "name": "Shaik ",
+      "class": "Class 9",
+      "section": "Yamuna",
+      "id": "bc6f"
+    },
+    {
+      "id": "2aa2",
+      "name": "Wasim",
+      "class": "Class 8",
+      "section": "Ganga"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
