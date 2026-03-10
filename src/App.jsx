@@ -9,6 +9,11 @@
   import Coorinators from "./pages/cooridnators/Coorinators";
   import { StudentsProvider } from "./StudentsContex";
 
+// Hoe to run 
+// Run Vite :npm run dev
+// Run json :npx json-server db.json
+
+
   const App = () => {
     return (
       <StudentsProvider>
