@@ -15,17 +15,13 @@ const Students = () => {
 
   // Fetch 
   useEffect(() => {
-    axios.get("http://localhost:3000/posts")
-      .then((res) => setPosts(res.data))
-      .catch((err) => console.log("Something went wrong", err));
-  }, []);
+  axios.get("http://localhost:3000/posts")
+    .then((res) => setPosts(res.data))
+    .catch((err) => console.log("Something went wrong", err));
+}, []);
 
-
-
-
-
-  const handleSubmite = (e) => {
-    e.preventDefault();
+  const handleSubmite = () => {
+  
     if (isUpdating) {
       editPutPost()
     } else {
@@ -137,7 +133,7 @@ const Students = () => {
                 <FiUpload /> Import CSV
               </button>
               <button
-
+                type="button"
                 onClick={handleSubmite}
                 className="bg-blue-600 text-white rounded-md text-sm hover:bg-blue-700 px-1 py-1 cursor-pointer"
               >
@@ -162,16 +158,14 @@ const Students = () => {
                 </tr>
               </thead>
               <tbody>
-               
+
                 {posts.map((post) => (
                   <tr className="border-t" key={post.id}>
-                     <div className="flex items-center">
-                      <img src={logo} alt="Profile" className="w-[22px] h-[25px]"/>
-                      <td className="p-4">
+                    <td className="p-4 flex items-center gap-2">
+                      <img src={logo} alt="Profile" className="w-[22px] h-[25px]" />
                       {post.name}
-                      </td>
-                     </div>
-                    
+                    </td>
+
                     <td className="p-4">ADM-001-2024</td>
                     <td className="p-4">{post.class} - {post.section}</td>
                     <td className="p-4">Arjun Sharma</td>

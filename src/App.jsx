@@ -27,6 +27,7 @@
             <div className="sm:w-[80%] p-4">
                 <Home/>
               <Routes>
+                <Route path="/" element={<Home />} />
                 <Route path="/students" element={<Students />} />
                 <Route path="/teachers" element={<Teachers />} />
                 <Route path="/staff" element={<Staff />} />
