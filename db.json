@@ -11,42 +11,6 @@
       "name": "Wasim",
       "class": "Class 8",
       "section": "Ganga"
-    },
-    {
-      "id": "ee90",
-      "name": "wwww",
-      "class": "Class 10",
-      "section": "Nile"
-    },
-    {
-      "id": "043e",
-      "name": "aaaaaaaa",
-      "class": "Class 10",
-      "section": "Nile"
-    },
-    {
-      "id": "e45a",
-      "name": "sddd",
-      "class": "Class 1",
-      "section": "Nile"
-    },
-    {
-      "id": "9a05",
-      "name": "aaaaaaaaa",
-      "class": "Class 5",
-      "section": "Nile"
-    },
-    {
-      "id": "7856",
-      "name": "sssss",
-      "class": "Class 9",
-      "section": "Nile"
-    },
-    {
-      "id": "2293",
-      "name": "vvvv",
-      "class": "Class 10",
-      "section": "Ganga"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
